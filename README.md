@@ -1,25 +1,26 @@
-# api-quick-start
+# API Deployment
 
-Template Project for starting up CRUD API with Django Rest Framework
+## Project:
 
-## Customization Steps
+RESTfull API deployed on Heroku
 
-- DO NOT migrate yet
-- add additional dependencies as needed
-  - Re-export requirements.txt as needed
-- change `CookieStands` folder to the app name of your choice
-- Search through entire code base for `CookieStand`,`CookieStands` and `CookieStands` to modify code to use your resource
-  - `project/settings.py`
-  - `project/urls.py`
-  - App's files
-    - `views.py`
-    - `urls.py`
-    - `admin.py`
-    - `serializers.py`
-    - `permissions.py`
-- Update CookieStandModel with fields you need
-  - Make sure to update other modules that would be affected by Model customizations. E.g. serializers, tests, etc.
-- Rename `project/.env.sample` to `.env` and update as needed
-- Run makemigrations and migrate commands
-- Run `collectstatic` if needed.
-- Optional: Update `api_tester.py`
+## Author(s):
+
+Lujain Aljarrah
+Noor Alkhateeb
+Yazan Alfarra
+
+## Project Description
+
+This is a REST API where you can send GET, POST, PUT, PATCH and DELETE HTTP requests, to get, update or delete books and authors details. Deployed on Heroku.
+
+## Login
+
+- **Username:** admin
+- **Password:** admin
+
+## Getting Started
+
+- To get all the data.
+
+**https://cookies-stands-g3.herokuapp.com/api/v1/CookieStands/**
